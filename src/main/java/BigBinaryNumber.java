@@ -2,31 +2,7 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 
- n      binary count   sum
- 1  -   001 	1   	1
- 2  -   010 	1   	2
- 3  -   011 	2   	4
- 4  -   100 	1   	5
- 5  -   101 	2   	7
- 6  -   110 	2   	9
- 7  -   111 	3  		12
- 8  -  1000 	1  		13
- 9  -  1001 	2  		15
- 10 -  1010 	2  		17
- 11 -  1011 	3  		20
- 12-   1100 	2  		22
- 13-   1101 	3  		25
- 14-   1110 	3  		28
- 15-   1111 	4  		32
- 16 - 10000 	1  		33
- * 
- * @author aawasthi
- *
- */
-
-public class BitCounts {
+public class BigBinaryNumber {
 
 	public static long mod = 1000000007;
 	
